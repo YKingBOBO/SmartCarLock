@@ -1,0 +1,37 @@
+input{
+       display: flex;
+       border:1px solid rgb(119, 110, 110);
+       width: 60%;
+       height: 80rpx;
+       margin-left: auto;
+       margin-right: auto;
+     }
+     .common-page-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 80rpx;
+            padding: 0 24rpx;
+            background: #fff;
+          }
+          
+          .common-page-list-left {
+            font-size: 30rpx;
+            color: #333;
+            font-weight: 500;
+            margin: auto;
+          }
+     
+     button{
+            margin-top: 60rpx;
+            margin-bottom: 30rpx;
+          }
+     .button-sp-area{
+            margin: 0 auto;
+            width: 60%;
+          }
+     .mini-btn{
+            margin-right: 10rpx;
+      }
+          

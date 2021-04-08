@@ -1,0 +1,6 @@
+<view class="button-sp-area">
+      <button type="primary" bindtap="saoma">扫码开锁</button>
+ </view>
+ <view class="button-sp-area">
+      <button type="primary"  bindtap="shuru">输入车位锁编号开锁</button>
+ </view>

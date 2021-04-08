@@ -1,0 +1,17 @@
+<!--如果在同一个form表单中创建了多个input输入框，可以给给每个输入框，创建自己的
+name=“userName”属性，可以区别哪个输入框，并通过添加
+属性提交：bindsubmit="方法名" 重置：bindreset="方法名"，达到清除输入框内容的目的
+js文件中的用法，e.detail.value.userName.length-->
+<view cls="itemView">
+       <view class='common-page-list'>
+    <view class='common-page-list-left'><text>请输入车位锁编号</text></view>
+   </view>
+    <input class="input" name="userName" placeholder="例如1001" 
+    bindinput="userNameInput"/>
+  </view>
+<view class="button-sp-area">
+  <button class="loginBtn" type="primary" bindtap="loginBtnClick">确定</button>
+  <button class="resetBtn" type="primary" bindtap="resetBtnClick">取消</button>
+</view>
+<view>{{infoMess}}</view>
+<view>{{userName}}</view>
